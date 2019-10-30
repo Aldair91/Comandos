@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="342.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="comandos.FXMLDocumentController">
+    <children>
+      <ImageView fx:id="imageView" fitHeight="342.0" fitWidth="492.0" pickOnBounds="true">
+         <image>
+            <Image url="@../resources/img/command.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="button" layoutX="252.0" layoutY="32.0" mnemonicParsing="false" onAction="#handleButtontwo" text="Buscar comando" />
+      <TextArea fx:id="textArea" layoutX="40.0" layoutY="112.0" prefHeight="200.0" prefWidth="431.0" text="&#10;" />
+      <TextField fx:id="textField" layoutX="48.0" layoutY="36.0" text="ipconfig" />
+    </children>
+</AnchorPane>
